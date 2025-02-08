@@ -1,6 +1,5 @@
 <template>
   <div>
-    <NuxtRouteAnnouncer />
-    <NuxtWelcome />
+    <News :title="'Testing Title'" :content="'Testing Content'" />
   </div>
 </template>
